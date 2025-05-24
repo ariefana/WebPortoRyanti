@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Ryanti</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Website<span>Saya</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="slide-in">Hai, Saya <span>Ryanti Syaldah</span></h1>
+                <p class="slide-in delay-1"></p>
+                <a href="#contact" class="btn slide-in delay-2">Hubungi Saya</a>
+            </div>
+            <div class="hero-image">
+                <img src="image/foto1.jpg" alt="">
+                <img src="image/foto2.jpg" alt="">
+            </div>
+            <!-- <div class="hero-image">
+                <img src="image/foto2.jpg" alt="">
+            </div> -->
+        </section>
+
+        <section id="about" class="about">
+            <h2>Tentang <span>Saya</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya seorang Mahasiswa Politeknik Negri Medan jurusan Komputer Informatika semester 2. Saya bersemangat untuk mempelajari pemograman Web Developer</p>
+                    <p>Selain Belajar, saya juga suka Traveling, nonton film, dan menjelajahi teknologi terbaru.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span>Nama:</span>
+                        <p>Ryanti Syaldah</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Email:</span>
+                        <p>ryantisyaldah83@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Pendidikan:</span>
+                        <p>Politeknik Negeri Medan</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Hobi:</span>
+                        <p>Traveling, Nonton</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Keahlian <span>Saya</span></h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level html"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level css"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level css"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Proyek <span>Saya</span></h2>
+            <div class="projects-grid">
+                <!-- Item proyek akan diisi oleh JavaScript -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Hubungi <span>Saya</span></h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Ryanti. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
